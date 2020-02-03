@@ -59,6 +59,11 @@ a.navbar-brand img {
 
 .font-icon {
   font-size: 3.5rem;
+  color: #E80;
+}
+
+.font-icon:hover {
+  color: #F00 ;
 }
 
 /* Experts */
