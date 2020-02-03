@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Colors : orange, FF9900 FF8800; */
+
+/* Container */
+.container-fluid {
+  width:90%;
+  margin:auto;
+}
+
+.container-2 {
+  width: 60%;
+  margin: auto;
+}
+
+
+/* Brand Image */
+a.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Title Image */
+#title div.row img {
+  width: 60%;
+}
+
+/* Title */
+#title {
+  background-color: #FFA500;
+  color: #FFF;
+
+}
+
+.title-text {
+  text-align: left;
+}
+
+#title h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+#title div.row {
+  padding: 5% 0;
+}
+
+/* Benefits  */
+#benefits {
+  padding: 5% 0;
+}
+
+.font-icon {
+  font-size: 3.5rem;
+}
+
+/* Experts */
+
+#experts {
+  background-color: #FF9900;
+  color: #FFF;
+
+  /* min-height: 300px; */
+
+  padding: 10% 0 ;
+}
+
+#experts h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+#experts img {
+  width: 15%;
+  border-radius: 20%;
+}
+
+/* Information */
+
+#info {
+
+
+}
+
+#info h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* cta */
+#cta {
+  background-color: #FF8800;
+  color: #FFF;
+}
+
+#cta h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* Footer */
+#footer {
+  margin: 8% 0 2%;
+}
