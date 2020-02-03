@@ -74,20 +74,36 @@ a.navbar-brand img {
 
   /* min-height: 300px; */
 
-  padding: 10% 0 ;
+  padding: 9% 0 5%;
 }
 
 #experts h2 {
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 #experts img {
   width: 15%;
   border-radius: 20%;
+
+  margin: 20px;
 }
 
+.carousel-inner {
+  padding: 0 15%;
+}
+
+/* Press */
+#press {
+  background-color: #FF9900;
+
+  padding: 0 15% 2%;
+}
+
+#press img {
+  width:20%;
+}
 /* Information */
 
 #info {
