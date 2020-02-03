@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -21,26 +22,31 @@
   <section id="title">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark ">
-
         <a class="navbar-brand" href="#">
           <img src="images/orange-brand.png" class="d-inline-block align-top" alt="orange brand image">
           Orange
         </a>
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Expert</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Info</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation-bar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Expert</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <div class="row">
@@ -57,27 +63,27 @@
 
 
   <section id="benefits">
-<!-- Got rid of container and added padding instead -->
-      <div class="row">
-        <div class="col-lg-4">
-          <span class="fas fa-fist-raised font-icon"></span>
-          <h2>Strong Immune System</h2>
-          <p>One large orange contains 100% RDI of Vitamin C.
-            Vitamin C is vital for strong immune system.</p>
-        </div>
-        <div class="col-lg-4">
-          <span class="fas fa-first-aid font-icon"></span>
-          <h2>High in Antioxidant</h2>
-          <p>Vit C is also an anti-oxidant. Antioxidant prevents or
-            slows down the damage caused to the cell by free radicals</p>
-        </div>
-        <div class="col-lg-4">
-          <span class="fas fa-allergies font-icon"></span>
-          <h2>Prevents Skin Damage</h2>
-          <p>Vitamin C contributes to collagen production. Collagen is
-            a protein that heals wounds. </p>
-        </div>
+    <!-- Got rid of container and added padding instead -->
+    <div class="row">
+      <div class="col-lg-4">
+        <span class="fas fa-fist-raised font-icon"></span>
+        <h2>Strong Immune System</h2>
+        <p>One large orange contains 100% RDI of Vitamin C.
+          Vitamin C is vital for strong immune system.</p>
       </div>
+      <div class="col-lg-4">
+        <span class="fas fa-first-aid font-icon"></span>
+        <h2>High in Antioxidant</h2>
+        <p>Vit C is also an anti-oxidant. Antioxidant prevents or
+          slows down the damage caused to the cell by free radicals</p>
+      </div>
+      <div class="col-lg-4">
+        <span class="fas fa-allergies font-icon"></span>
+        <h2>Prevents Skin Damage</h2>
+        <p>Vitamin C contributes to collagen production. Collagen is
+          a protein that heals wounds. </p>
+      </div>
+    </div>
   </section>
 
 
@@ -126,106 +132,106 @@
 
 
   <section id="info">
-<!-- Container removed and padding added here instead too -->
-      <h2>Information</h2>
-      <p>if you would like to know more there are cards below with more information</p>
+    <!-- Container removed and padding added here instead too -->
+    <h2>Information</h2>
+    <p>if you would like to know more there are cards below with more information</p>
 
-      <div class="accordion" id="accordionInfo">
+    <div class="accordion" id="accordionInfo">
 
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h3 class="mb-0">
-              <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Vitamin C
-              </button>
-            </h3>
-          </div>
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionInfo">
-            <div class="card-body">
-              <p>Here will contain more information about Vitamin C and other things.</p>
-            </div>
-          </div>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h3 class="mb-0">
+            <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Vitamin C
+            </button>
+          </h3>
         </div>
-
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h3 class="mb-0">
-              <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseTwo">
-                Thamin
-              </button>
-            </h3>
-          </div>
-
-          <div id="collapseTwo" class="collapse show">
-            <div class="card-body">
-              <p>
-                Here will contain the information about thamin.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h3 class="mb-0">
-              <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseThree">
-                Folate
-              </button>
-            </h3>
-          </div>
-
-          <div id="collapseThree" class="collapse show">
-            <div class="card-body">
-              <p>
-                Here will contain the information about Folate.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <h3 class="mb-0">
-              <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseFour">
-                Collagen
-              </button>
-            </h3>
-          </div>
-
-          <div id="collapseFour" class="collapse show">
-            <div class="card-body">
-              <p>
-                Here will contain the information about collagen.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="headingFive">
-            <h3 class="mb-0">
-              <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseFive">
-                Antioxidant
-              </button>
-            </h3>
-          </div>
-
-          <div id="collapseFive" class="collapse show">
-            <div class="card-body">
-              <p>
-                Here will contain the information about antioxidant.
-              </p>
-            </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionInfo">
+          <div class="card-body">
+            <p>Here will contain more information about Vitamin C and other things.</p>
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h3 class="mb-0">
+            <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseTwo">
+              Thamin
+            </button>
+          </h3>
+        </div>
+
+        <div id="collapseTwo" class="collapse show">
+          <div class="card-body">
+            <p>
+              Here will contain the information about thamin.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h3 class="mb-0">
+            <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseThree">
+              Folate
+            </button>
+          </h3>
+        </div>
+
+        <div id="collapseThree" class="collapse show">
+          <div class="card-body">
+            <p>
+              Here will contain the information about Folate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h3 class="mb-0">
+            <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseFour">
+              Collagen
+            </button>
+          </h3>
+        </div>
+
+        <div id="collapseFour" class="collapse show">
+          <div class="card-body">
+            <p>
+              Here will contain the information about collagen.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h3 class="mb-0">
+            <button type="button" class="btn btn-link text-warning" data-toggle="collapse" data-target="#collapseFive">
+              Antioxidant
+            </button>
+          </h3>
+        </div>
+
+        <div id="collapseFive" class="collapse show">
+          <div class="card-body">
+            <p>
+              Here will contain the information about antioxidant.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   </section>
 
   <section id="cta">
     <h2>Did you know Orange is actually a naturally occuring hybrid of Pomelo
-    and Mandarin. </h2>
+      and Mandarin. </h2>
     <button type="button" class="btn btn-lg btn-light">Purchase</button>
   </section>
 
@@ -239,4 +245,5 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
 </html>
